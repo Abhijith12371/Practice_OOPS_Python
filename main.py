@@ -61,27 +61,27 @@
 
 
 
-class Things:
-    def __init__(self,*things):
-        self.things=things
-    def display(self):
-        print(f"The things are   {self.things}")
+# class Things:
+#     def __init__(self,*things):
+#         self.things=things
+#     def display(self):
+#         print(f"The things are   {self.things}")
 
 
-class Abhijith(Things):
-    def show(self):
-        print("this is a function")
-    def display(self):
-        return super().display()
-class Karthikeya(Things):
-    pass
-class XYZ(Karthikeya):
-    pass
+# class Abhijith(Things):
+#     def show(self):
+#         print("this is a function")
+#     def display(self):
+#         return super().display()
+# class Karthikeya(Things):
+#     pass
+# class XYZ(Karthikeya):
+#     pass
     
-obj=Abhijith("Abhijith","KK","Dwarakesh","LSY")
+# obj=Abhijith("Abhijith","KK","Dwarakesh","LSY")
 
 
-obj.display()
+# obj.display()
 
 
 # class numbers:
@@ -132,19 +132,57 @@ obj.display()
 
 
 
-class Circle:
-    pi=3.14
-    def __init__(self,radius):
-        self.radius=radius
-    def area(self):
-        return Circle.pi*self.radius*self.radius
-    def perimeter(self):
-        return 2*Circle.pi*self.radius
-cir=Circle(6)
+# class Circle:
+#     pi=3.14
+#     def __init__(self,radius):
+#         self.radius=radius
+#     def area(self):
+#         return Circle.pi*self.radius*self.radius
+#     def perimeter(self):
+#         return 2*Circle.pi*self.radius
+# cir=Circle(6)
 
-print(cir.area())
-print(cir.perimeter())
+# print(cir.area())
+# print(cir.perimeter())
 
 
+
+# class Animal:
+#     def make_sound(self):
+#         print("I am barking...")
+# class DOG(Animal):
+#     def make_sound(self):
+#         print("Dog is barking...")
+# class Cat(Animal):
+#     def make_sound(self):
+#         print("Cat cannot make a sound...")
+
+
+# dg=DOG()
+# dg.make_sound()
+
+# ct=Cat()
+
+# ct.make_sound()
+
+
+
+# a=input() #153
+# sum=0
+# org=int(a)
+# for i in a:
+#     sum+=int(i)**3
+# if sum==org:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# a=input()
+
+# if a==a[::-1]:
+#     print("yes")
+# else:
+#     print("no")
 
 
